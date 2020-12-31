@@ -1,0 +1,5 @@
+#!/bin/bash
+nslookup slash16.org | grep 'Address' | sed 1d
+
+#sed 1d removes the first line 
+#grep 'Address' extracts lines in Address

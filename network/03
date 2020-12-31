@@ -1,2 +1,7 @@
 #!/bin/bash
 ifconfig en0 | grep -o -E '([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2}'
+
+# en0 is my Wi-Fi interface number, if on ethernet it can be en1
+# the output of ifconfig eno which matches the reg expression ([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2} will be output
+
+

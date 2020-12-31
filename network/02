@@ -1,3 +1,5 @@
 #!/bin/bash
 ipconfig getifaddr en0
 ifconfig | grep inet
+
+#the results of ifconfig is filtered using grep to show only those matching inet netmask

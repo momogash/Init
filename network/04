@@ -1,2 +1,5 @@
 #!/bin/bash
 route -n get default | grep 'gateway' | awk '{print $2}'
+
+#awk {print $2} prints the second colum
+#route -n opens the routing table and -n shows network addresses as numbers.
