@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#command: nslookup 42.fr 8.8.8.8 | grep 'Address' | sed 1d
+#external ip is the dns public ip of the site. 

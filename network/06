@@ -1,2 +1,9 @@
 #!/bin/bash
+scutil --dns | grep 'nameserver' | sort -u
+
+#The scutil command (“system configuration utility”) can display basic network information, set the computer hostname, and perform several other tasks.
+#scutil --dns Report the current DNS configuration
+#grep is used to filter the results of the report by name server
+#sort -u sorts the grep result by unique id's/ numbers no repetions
+#the output will be the dns ip address
 
