@@ -1,0 +1,2 @@
+#!/bin/bash
+echo 'on the home directory, add the given ip address to /etc/hosts file including the server name, then ping the server name.'

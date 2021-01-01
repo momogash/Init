@@ -1,0 +1,9 @@
+#!/bin/bash
+ipconfig getpacket en0 | grep 'yiaddr'
+
+#Server_indentifier (ip) = your DHCP server's IP address
+#yiaddr = Your IP address
+#siaddr = Server Address
+#giaddr = gateway IP address
+#chaddr = Hardware Address
+
