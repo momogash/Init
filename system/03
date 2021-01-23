@@ -1,0 +1,3 @@
+#!/bin/bash
+echo 'vim /etc/hostname file has to be edited to make the hostname change permanent'
+
