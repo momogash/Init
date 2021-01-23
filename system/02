@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo hostnamectl set-hostname
+
+echo 'followed by the new hostname. type hostnamectl to verify change'
