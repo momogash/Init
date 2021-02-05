@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo df -H
+#The df command is used to show the amount of disk space that is free on file systems
