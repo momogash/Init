@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo fdisk -l
+#fdisk command is a tool that is used to create partitions on a block device, -l flag lists.

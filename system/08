@@ -1,0 +1,3 @@
+#!/bin/bash
+colour='\033[0;35m'
+echo "This file contains a list of public keys, one-per-line, that are authorized to log into this account${colour}~/.ssh/authorized_keys"
