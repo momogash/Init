@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 echo "Enter username you would like to delete?"
 read username
 
