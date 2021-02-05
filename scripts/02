@@ -2,9 +2,8 @@
 echo "Enter username you would like to delete?"
 read username
 
-not_found=`tput setaf 6`
-found=`tput setaf 4`
-reset=`tput sgr0`
+not_found='\033[0;31m'
+found='\033[0;33m'
 
 user=`cat /etc/passwd | grep $username`
 if [ "$user" != "$NULL" ]; then

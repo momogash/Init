@@ -1,2 +1,4 @@
 #!/bin/bash
-reboot -f
+colour='\033[0;36m'
+echo "${colour}May the code be with you!! So long WTCoder"
+sudo pkill -KILL -u moloko
