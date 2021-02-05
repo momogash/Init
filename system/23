@@ -1,0 +1,6 @@
+#!/bin/bash
+colour='\033[0;36m'
+colour2='\033[0;35m'
+reset='\033[0m'
+echo "${colour}in graphical session: we launch the VM and connect by filling in username and password"
+echo "${colour2} For ssh you type ${reset}ssh username @ ipadress ${colour2}then the password"
