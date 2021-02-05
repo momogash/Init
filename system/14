@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo tail -f /var/log/syslog &
+#use an ampersand after the command if you want to background something
+#Then you can bring it back to the foreground later by typing fg
